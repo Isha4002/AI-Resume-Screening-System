@@ -54,6 +54,10 @@ This application compares a candidate's resume with a job description and provid
 * Skill Recommendation Engine
 * Cloud Deployment
 
+## Application Preview
+
+![Application Screenshot](Output.png)
+
 ## Author
 
 Isha Pal
