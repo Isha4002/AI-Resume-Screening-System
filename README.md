@@ -1,64 +1,138 @@
 # 🤖 AI Resume Screening System
 
-## Overview
+An AI-powered Resume Screening System built using Natural Language Processing (NLP) and Machine Learning. The application analyzes resumes against job descriptions, calculates similarity scores using TF-IDF and Cosine Similarity, identifies relevant skills, and provides resume-job fit insights.
 
-An AI-powered Resume Screening System built using NLP and Machine Learning.
+## 🚀 Live Demo
 
-This application compares a candidate's resume with a job description and provides:
+https://ai-resume-screening-system-ewtpninmfushdjqtetuwu8.streamlit.app/
 
-* Resume Match Score
-* Skill Gap Analysis
-* Missing Skills Detection
-* Candidate Evaluation
+---
 
-## Technologies Used
+## 📌 Features
 
-* Python
-* Streamlit
-* Scikit-Learn
-* TF-IDF Vectorization
-* Cosine Similarity
+- Resume and Job Description Matching
+- TF-IDF Based Text Vectorization
+- Cosine Similarity Score Calculation
+- Skill Extraction and Matching
+- Resume Relevance Analysis
+- Interactive Streamlit User Interface
+- Real-time Resume Evaluation
 
-## Features
+---
 
-✅ Resume-Job Matching
+## 🛠️ Tech Stack
 
-✅ Match Percentage Score
+- Python
+- Streamlit
+- Scikit-Learn
+- NLP
+- TF-IDF Vectorizer
+- Cosine Similarity
+- NumPy
+- Pandas
 
-✅ Progress Bar Visualization
+---
 
-✅ Missing Skills Detection
+## 📊 System Workflow
 
-✅ Candidate Rating System
+Resume Text
+↓
+Text Preprocessing
+↓
+TF-IDF Vectorization
+↓
+Cosine Similarity Calculation
+↓
+Skill Matching
+↓
+Resume Score Generation
+↓
+Recommendations & Insights
 
-## How It Works
+---
 
-1. Paste Resume Text
-2. Paste Job Description
-3. Click Analyze
-4. View Match Score and Missing Skills
+## 📂 Project Structure
 
-## Example Output
+```text
+AI-Resume-Screening-System/
+│
+├── app.py
+├── AI_Resume_Screener.ipynb
+├── Output.png
+├── requirements.txt
+└── README.md
+```
 
-* Match Score: 68.88%
-* Candidate Rating: Good Match 👍
-* Missing Skills:
+## ⚙️ Installation
 
-  * Deep Learning
-  * SQL
+Clone the repository:
 
-## Future Improvements
+```bash
+git clone https://github.com/Isha4002/AI-Resume-Screening-System.git
+cd AI-Resume-Screening-System
+```
 
-* PDF Resume Upload
-* Resume Parsing
-* Skill Recommendation Engine
-* Cloud Deployment
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application:
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## 💡 How It Works
+
+1. Enter Resume Content.
+2. Enter Job Description.
+3. Click **Analyze**.
+4. The system calculates similarity between the resume and job description.
+5. Relevant skills are identified.
+6. A matching score and recommendations are generated.
+
+---
+
+## 🎯 Future Enhancements
+
+- PDF Resume Upload Support
+- ATS Compatibility Analysis
+- Resume Section Detection
+- Transformer-Based Models (BERT)
+- Personalized Career Recommendations
+- Multi-Job Matching Support
+
+---
 
 ## Application Preview
 
 ![Application Screenshot](Output.png)
 
-## Author
+---
 
-Isha Pal
+## 👩‍💻 Author
+
+**Isha Pal**
+
+- GitHub: https://github.com/Isha4002
+- LinkedIn: https://linkedin.com/in/your-linkedin-profile
+
+---
+
+## ⭐ Key Learning Outcomes
+
+- Natural Language Processing (NLP)
+- Information Retrieval Techniques
+- TF-IDF Vectorization
+- Cosine Similarity
+- Streamlit Deployment
+- Machine Learning Application Development
+
+---
+
+⭐ If you found this project useful, consider giving it a star!
 
